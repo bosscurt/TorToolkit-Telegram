@@ -11,7 +11,7 @@ except:
         BASE_URL_OF_BOT = "t.me/RcloneTORRENT_BoT"
 
         # Edit the server port if you want to keep it default though.
-        # SERVPORT = 80
+         SERVPORT = 5432
 
         # ALLOWED USERS [ids of user or supergroup] seperate by commas
         ALD_USR = [1222980014,-1001838680560]
@@ -39,7 +39,7 @@ except:
         DB_URI = "postgres://btpiaibl:cy7IUzG5RV8hGKdCyJCo8QQNbQkVddGR@motty.db.elephantsql.com/btpiaibl"
         
         # UNCOMMENT THE BELOW LINE WHEN USING CONTAINER AND COMMENT THE UPPER LINE
-        DB_URI = "dbname=tortk user=postgres password=your-pass host=db port=5432"
+        #DB_URI = "dbname=tortk user=postgres password=your-pass host=db port=5432"
         
         # MEGA CONFIG
         MEGA_ENABLE = False

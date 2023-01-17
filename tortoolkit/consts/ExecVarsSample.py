@@ -15,7 +15,7 @@ except:
 
         # ALLOWED USERS [ids of user or supergroup] seperate by commas
         ALD_USR = [1222980014,-1001838680560]
-        #OWNER_ID = 1222980014
+        OWNER_ID = 1222980014
         
         # Google Drive Index Link should include the base dir also See readme for more info
         GD_INDEX_URL = False
@@ -39,7 +39,7 @@ except:
         DB_URI = "postgres://btpiaibl:cy7IUzG5RV8hGKdCyJCo8QQNbQkVddGR@motty.db.elephantsql.com/btpiaibl"
         
         # UNCOMMENT THE BELOW LINE WHEN USING CONTAINER AND COMMENT THE UPPER LINE
-        #DB_URI = "dbname=tortk user=postgres password=your-pass host=db port=5432"
+        DB_URI = "dbname=tortk user=postgres password=your-pass host=db port=5432"
         
         # MEGA CONFIG
         MEGA_ENABLE = False

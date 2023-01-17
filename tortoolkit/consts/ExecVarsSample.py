@@ -5,10 +5,10 @@ except:
         # Set true if its VPS
         IS_VPS = False
         
-        API_HASH = ""
-        API_ID = 0
-        BOT_TOKEN = ""
-        BASE_URL_OF_BOT = ""
+        API_HASH = "6b12cfd9f18cf2b77e79fa1b04aaa17a"
+        API_ID = 26055372
+        BOT_TOKEN = "5880038495:AAEZ9NPpQhKRwZ--hfnKMlopuFkx9gAKVgo"
+        BASE_URL_OF_BOT = "t.me/RcloneTORRENT_BoT"
 
         # Edit the server port if you want to keep it default though.
         SERVPORT = 80

@@ -11,11 +11,11 @@ except:
         BASE_URL_OF_BOT = "t.me/RcloneTORRENT_BoT"
 
         # Edit the server port if you want to keep it default though.
-         SERVPORT = 5432
+         # SERVPORT = 5432
 
         # ALLOWED USERS [ids of user or supergroup] seperate by commas
         ALD_USR = [1222980014,-1001838680560]
-        OWNER_ID = 1222980014
+        #OWNER_ID = 1222980014
         
         # Google Drive Index Link should include the base dir also See readme for more info
         GD_INDEX_URL = False
@@ -36,8 +36,8 @@ except:
         REMAINING_STR = "▱"
 
         # DB URI for access
-        DB_URI = "postgres://btpiaibl:cy7IUzG5RV8hGKdCyJCo8QQNbQkVddGR@motty.db.elephantsql.com/btpiaibl"
-        
+        #DB_URI = "postgres://btpiaibl:cy7IUzG5RV8hGKdCyJCo8QQNbQkVddGR@motty.db.elephantsql.com/btpiaibl"
+        DB_URI = "postgres://bosscurt@ep-nameless-hat-524970.eu-central-1.aws.neon.tech/neondb" 
         # UNCOMMENT THE BELOW LINE WHEN USING CONTAINER AND COMMENT THE UPPER LINE
         #DB_URI = "dbname=tortk user=postgres password=your-pass host=db port=5432"
         

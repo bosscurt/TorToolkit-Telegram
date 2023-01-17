@@ -37,7 +37,7 @@ except:
 
         # DB URI for access
      
-        DB_URI = "postgres://meawxzic:z9MKCVcB87yKq8APpRR3obYz32XkBMhr@dumbo.db.elephantsql.com/meawxzic" 
+        DB_URI = "postgres://bslmdvoj:0PXPnFAQSotrK6Jaz7loVDZ6QwEQY_Wa@mel.db.elephantsql.com/bslmdvoj" 
          
         # UNCOMMENT THE BELOW LINE WHEN USING CONTAINER AND COMMENT THE UPPER LINE
         #DB_URI = "dbname=tortk user=postgres password=cy7IUzG5RV8hGKdCyJCo8QQNbQkVddGR host=db port=5432"

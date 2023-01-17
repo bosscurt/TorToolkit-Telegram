@@ -3,7 +3,7 @@ try:
 except:
     class ExecVars:
         # Set true if its VPS
-        IS_VPS = False
+        IS_VPS = True
         
         API_HASH = "6b12cfd9f18cf2b77e79fa1b04aaa17a"
         API_ID = 26055372

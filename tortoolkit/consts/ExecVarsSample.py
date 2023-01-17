@@ -41,7 +41,7 @@ except:
          DB_URI = "postgres://bosscurt:MoSctXzkUe17@ep-patient-term-725622.eu-central-1.aws.neon.tech/neondb"
         # UNCOMMENT THE BELOW LINE WHEN USING CONTAINER AND COMMENT THE UPPER LINE
         #DB_URI = "dbname=tortk user=postgres password=cy7IUzG5RV8hGKdCyJCo8QQNbQkVddGR host=db port=5432"
-        
+         DB_URI = "dbname=neondb user=bosscurt password=MoSctXzkUe17 host=ep-patient-term-725622.eu-central-1.aws.neon.tech port=5432"
         # MEGA CONFIG
         MEGA_ENABLE = False
         MEGA_API = ""

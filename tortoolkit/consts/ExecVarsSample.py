@@ -11,7 +11,7 @@ except:
         BASE_URL_OF_BOT = "t.me/RcloneTORRENT_BoT"
 
         # Edit the server port if you want to keep it default though.
-         # SERVPORT = 5432
+        SERVPORT = 80
 
         # ALLOWED USERS [ids of user or supergroup] seperate by commas
         ALD_USR = [1222980014,-1001838680560]
@@ -69,10 +69,10 @@ except:
         DEF_RCLONE_DRIVE = ""
 
         # Max size of a playlist that is allowed (Number of videos)
-        MAX_YTPLAYLIST_SIZE = 20
+        MAX_YTPLAYLIST_SIZE = 100
         
         # Max size of the torrent allowed
-        MAX_TORRENT_SIZE = 10
+        MAX_TORRENT_SIZE = 50
 
         # Set this to your bot username if you want to add the username of your bot at the end of the commands like
         # /leech@TorToolkitBot so the value will be @TorToolkitBot
@@ -89,16 +89,16 @@ except:
 
         # This is to stop someone from abusing the system by imposing the limit
         # [<GBs of total torrent sapce>, <Number of youtube videos allowed to download>, <Number of youtube playlists allowed to download>]
-        USER_CAP_ENABLE = False
+        USER_CAP_ENABLE = True
         USER_CAP_LIMIT = [50,10,2]
 
         # No need to worry about these
         # CHANGE THESE AT YOUR RISK
         LOCKED_USERS = False
-        RSTUFF = False
+        RSTUFF = True
         FORCE_DOCS_USER = False
         FAST_UPLOAD = True
-        METAINFO_BOT = False
+        METAINFO_BOT = True
         EXPRESS_UPLOAD = True
         
 

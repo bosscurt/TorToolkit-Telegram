@@ -5,10 +5,10 @@ except:
         # Set true if its VPS
         IS_VPS = False
         
-        API_HASH = ""
-        API_ID = 0
-        BOT_TOKEN = ""
-        BASE_URL_OF_BOT = ""
+        API_HASH = "6b12cfd9f18cf2b77e79fa1b04aaa17a"
+        API_ID = 26055372
+        BOT_TOKEN = "5880038495:AAEZ9NPpQhKRwZ--hfnKMlopuFkx9gAKVgo"
+        BASE_URL_OF_BOT = "t.me/RcloneTORRENT_BoT"
 
         # Edit the server port if you want to keep it default though.
         SERVPORT = 80
@@ -36,7 +36,7 @@ except:
         REMAINING_STR = "▱"
 
         # DB URI for access
-        DB_URI = "dbname=tortk user=postgres password=your-pass host=127.0.0.1 port=5432"
+        DB_URI = "postgres://btpiaibl:cy7IUzG5RV8hGKdCyJCo8QQNbQkVddGR@motty.db.elephantsql.com/btpiaibl"
         
         # UNCOMMENT THE BELOW LINE WHEN USING CONTAINER AND COMMENT THE UPPER LINE
         #DB_URI = "dbname=tortk user=postgres password=your-pass host=db port=5432"
@@ -56,13 +56,13 @@ except:
 
         # Will be enabled once its set
         # For vps change it to True if config loaded
-        RCLONE_ENABLED = False
+        RCLONE_ENABLED = True
 
         # If the user fails to select whether to use rclone or telegram to upload this will be the deafult.
         DEFAULT_TIMEOUT = "leech"
 
         # For vps set path here or you can use runtime too
-        RCLONE_CONFIG = False
+        RCLONE_CONFIG = True
         
         # Name of the RCLONE drive from the config
         DEF_RCLONE_DRIVE = ""

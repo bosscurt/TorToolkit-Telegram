@@ -36,10 +36,10 @@ except:
         REMAINING_STR = "▱"
 
         # DB URI for access
-        #DB_URI = "postgres://btpiaibl:cy7IUzG5RV8hGKdCyJCo8QQNbQkVddGR@motty.db.elephantsql.com/btpiaibl"
-        DB_URI = "postgres://bosscurt@ep-nameless-hat-524970.eu-central-1.aws.neon.tech/neondb" 
+        DB_URI = "pd.csi.storage.gke.io"
+        #DB_URI = "postgres://bosscurt@ep-nameless-hat-524970.eu-central-1.aws.neon.tech/neondb" 
         # UNCOMMENT THE BELOW LINE WHEN USING CONTAINER AND COMMENT THE UPPER LINE
-        DB_URI = "dbname=tortk user=postgres password=cy7IUzG5RV8hGKdCyJCo8QQNbQkVddGR host=db port=5432"
+        #DB_URI = "dbname=tortk user=postgres password=cy7IUzG5RV8hGKdCyJCo8QQNbQkVddGR host=db port=5432"
         
         # MEGA CONFIG
         MEGA_ENABLE = False
